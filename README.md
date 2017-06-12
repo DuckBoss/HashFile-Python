@@ -7,7 +7,7 @@ A python script that generates a MD5/SHA1 hash of a given file.
 ```
 python YourScript.py FileToHash.txt
 ```
-- Python 3
+- Python 3:
 ```
 python3 YourScript.py FileToHash.txt
 ```
@@ -18,7 +18,7 @@ python3 YourScript.py FileToHash.txt
 ```
 python Demo.py Test.txt
 ```
-- Python 3
+- Python 3:
 ```
 python3 Demo.py Test.txt
 ```
