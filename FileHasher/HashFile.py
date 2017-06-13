@@ -11,7 +11,7 @@ class Hashing:
 		print('HashFile Started...\n{}\n'.format(time.strftime("%d-%m-%Y[%H:%M:%S]")))
 		self.chunkSize = 65536
 
-	# Generates and returns a MD5 Hash given a file
+	# Generates and returns a MD5 Hash of given a file
 	def HashFileIntoMD5(self, fileName):
 		md5Hash = hashlib.md5()
 		curFile = '{}.txt'.format(fileName)
@@ -24,7 +24,7 @@ class Hashing:
 		md5Digest = md5Hash.hexdigest()
 		return md5Digest
 
-	# Generated and returns a SHA1 Hash given a file
+	# Generates and returns a SHA1 Hash of given a file
 	def HashFileIntoSHA1(self, fileName):
 		sha1Hash = hashlib.sha1()
 		curFile = '{}.txt'.format(fileName)
